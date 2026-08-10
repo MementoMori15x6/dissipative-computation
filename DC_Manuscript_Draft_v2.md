@@ -4,9 +4,9 @@
 
 Independent researcher
 
-[email address to be added]
+dennis.yoo@gmail.com
 
-[ORCID to be added, optional]
+(https://orcid.org/0000-0002-8111-8830)
 
 *Preprint. [Date to be added upon submission.]*
 
