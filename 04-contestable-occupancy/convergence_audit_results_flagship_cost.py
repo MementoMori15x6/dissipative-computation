@@ -128,8 +128,11 @@ FINDINGS = {
 OPEN_ITEMS = [
     "K = 3 was not run for this pairing (the grid matches STAGE6A/6B's K in {1, 5, 8} for "
     "cell-for-cell comparability). The earlier short-window pass reported no clear trend at K = 3.",
-    "Finer alpha sampling between 1 and 20 was not attempted; the alpha = 1 bimodality and the "
-    "alpha = 20 collapse bracket a transition whose location within that interval is unmapped.",
+    "The fine alpha sweep (FINE_ALPHA_SWEEP) resolves the transition: located between alpha = 2 "
+    "(GoL-favoured peak) and alpha = 4 (full BB dominance), crossing near alpha = 3, at both K = 5 "
+    "and K = 8. The alpha = 1 -> 2 interval itself is unsampled, so the peak's exact location and "
+    "height are bracketed rather than pinned. K = 5 was carried to alpha = 10 to confirm the "
+    "collapse holds; K = 8 was stopped at alpha = 4 once fully decided.",
 ]
 
 PROVENANCE = {
@@ -138,6 +141,8 @@ PROVENANCE = {
         "flagship_progress.json (per-cell, alpha = 1 and 20)",
         "flagship_a200_seeds.json (per-seed, alpha = 200)",
         "flagship_a1_perseed.json (per-seed, alpha = 1, for the bimodality check)",
+        "flagship_fine_alpha.json (per-seed, fine alpha sweep: K = 5 at alpha = 2,3,4,5,10 and "
+        "K = 8 at alpha = 2,3,4 -- raw source for FINE_ALPHA_SWEEP)",
     ],
     "timing": "~11 s/seed at alpha = 1, ~25 s/seed at alpha = 20, ~50-95 s/seed at alpha = 200",
 }
