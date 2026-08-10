@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Dissipative Computation: Energetic Gating of Structure Formation and Competitive Dynamics in Discrete Systems"
+message: "If you use this software or data, please cite the preprint."
+type: software
+authors:
+  - family-names: Yoo
+    given-names: D. H.
+    affiliation: "Independent researcher"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT
+repository-code: "https://github.com/USERNAME/dissipative-computation"
+abstract: >-
+  Simulation code, banked convergence-audited data records, and figure-generation
+  scripts for a study of Landauer-gated cellular automata competing over a shared
+  diffusing energy field. Each state-changing transition is charged against a
+  local energy budget. A single structural property of each rule -- whether it
+  admits an absorbing configuration -- organizes both single-rule energetic
+  demand and multi-rule competitive outcomes.
+keywords:
+  - cellular automata
+  - non-equilibrium thermodynamics
+  - Landauer principle
+  - spatial ecology
+  - absorbing states
+preferred-citation:
+  type: article
+  title: "Dissipative Computation: Energetic Gating of Structure Formation and Competitive Dynamics in Discrete Systems"
+  authors:
+    - family-names: Yoo
+      given-names: D. H.
+  year: 2026
+  # journal / arXiv identifier to be added upon submission

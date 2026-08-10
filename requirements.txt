@@ -1,0 +1,15 @@
+# Dissipative Computation -- runtime dependencies
+#
+# Versions below are those the banked results were produced and verified under.
+# The simulations are deterministic given a seed, and that determinism depends
+# on numpy's Generator (np.random.default_rng), whose stream guarantees hold
+# within a major version. Pinning numpy is therefore not cosmetic: a different
+# major version may reproduce the science but not the exact banked numbers.
+#
+#   python3 -m pip install -r requirements.txt
+#
+# Python 3.9 or later. Verified on 3.12.
+
+numpy>=2.0,<3.0
+matplotlib>=3.8,<4.0
+scipy>=1.11,<2.0

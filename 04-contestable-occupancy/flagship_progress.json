@@ -1,0 +1,68 @@
+{
+  "1_1": {
+    "K": 1,
+    "alpha": 1,
+    "n_seeds": 10,
+    "mean_gol_share": 0.5000642480186455,
+    "sd": 2.619686609847628e-05,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 3200
+  },
+  "1_20": {
+    "K": 1,
+    "alpha": 20,
+    "n_seeds": 10,
+    "mean_gol_share": 0.5086518739096036,
+    "sd": 0.011957532468184845,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 6000
+  },
+  "5_1": {
+    "K": 5,
+    "alpha": 1,
+    "n_seeds": 10,
+    "mean_gol_share": 0.6011298178526883,
+    "sd": 0.48851455781478653,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 9200
+  },
+  "8_1": {
+    "K": 8,
+    "alpha": 1,
+    "n_seeds": 10,
+    "mean_gol_share": 0.61285125143583,
+    "sd": 0.4741666761442897,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 4200
+  },
+  "5_20": {
+    "K": 5,
+    "alpha": 20,
+    "n_seeds": 10,
+    "mean_gol_share": 0.04857496192040008,
+    "sd": 0.05545235517670867,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 22800
+  },
+  "8_20": {
+    "K": 8,
+    "alpha": 20,
+    "n_seeds": 10,
+    "mean_gol_share": 0.06918177238067387,
+    "sd": 0.05304021080861107,
+    "n_converged": 10,
+    "unconverged": 0,
+    "mean_drift_if_unconverged": null,
+    "max_steps": 8400
+  }
+}
