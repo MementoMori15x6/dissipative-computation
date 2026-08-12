@@ -36,7 +36,7 @@ import pathlib
 import sys
 import time
 
-MANUSCRIPT = "DC_Manuscript_Draft_v2.md"
+MANUSCRIPT = "DC_Manuscript.md"
 TOL = 5e-4
 
 

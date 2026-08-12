@@ -2,7 +2,7 @@
 
 **Context**: This review was conducted in a separate conversation thread, requested specifically to audit the Dissipative Computation manuscript's methodology after the contestable-occupancy/displacement-competition work was integrated. It identified two critical issues (fixed), several referee-anticipation items (addressed), and logistics corrections (addressed). Preserved here verbatim since it originated outside this thread and would otherwise only exist as pasted text.
 
-**Disposition**: All seven substantive points and the logistics items were addressed in the manuscript. See `DC_Manuscript_Draft_v2.md` and this repo's commit history (via conversation record) for the specific fixes. The most consequential finding — that HighLife's replicator-enabling mechanism needed direct verification rather than assumption — was confirmed empirically (Section 4.4) rather than merely caveated.
+**Disposition**: All seven substantive points and the logistics items were addressed in the manuscript. See `DC_Manuscript.md` and this repo's commit history (via conversation record) for the specific fixes. The most consequential finding — that HighLife's replicator-enabling mechanism needed direct verification rather than assumption — was confirmed empirically (Section 4.4) rather than merely caveated.
 
 ---
 

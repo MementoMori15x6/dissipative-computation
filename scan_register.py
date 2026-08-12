@@ -15,7 +15,7 @@ Usage:  python3 scan_register.py
 import re
 import pathlib
 
-MANUSCRIPT = "DC_Manuscript_Draft_v2.md"
+MANUSCRIPT = "DC_Manuscript.md"
 ROOT = pathlib.Path(__file__).parent
 if not (ROOT / MANUSCRIPT).exists():
     ROOT = pathlib.Path.cwd()

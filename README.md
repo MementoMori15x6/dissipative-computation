@@ -2,7 +2,7 @@
 
 Code and findings supporting *"Dissipative Computation: Energetic Gating of Structure Formation and Competitive Dynamics in Discrete Systems."*
 
-**[`DC_Manuscript_Draft_v2.md`](DC_Manuscript_Draft_v2.md) — full manuscript, Sections 1–5.** Its Section 5.4 states the scope and measurement limitations in full, including which results are convergence-verified and which remain open.
+**[`DC_Manuscript.md`](DC_Manuscript.md) — full manuscript, Sections 1–5.** Its Section 5.4 states the scope and measurement limitations in full, including which results are convergence-verified and which remain open.
 
 Physical computation is inherently dissipative: any process that changes a system's state does thermodynamic work, a constraint formalized for irreversible operations by Landauer's principle (Landauer, 1961). This repository investigates the consequences of that constraint for pattern formation, persistence, and multi-species competition in cellular automata, using a framework in which local energy availability gates whether a proposed state transition can execute at all. The framework is a deliberately simplified analogue of Landauer's principle — a fixed cost charged for state-changing transitions, with no temperature or thermal bath — rather than a physical realization of the `kT ln 2` bound.
 

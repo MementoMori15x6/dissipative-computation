@@ -211,10 +211,20 @@ after the edit:
 
 | Finding | Nature | Status |
 |---|---|---|
-| F1 | §2.3 describes one straggler treatment; three exist | open — manuscript wording |
-| F2 | §2.3 describes one settling detector; two exist | open — manuscript wording |
-| F3 | §3.3 understates how many points carry unconverged seeds | open — manuscript wording |
+| F1 | §2.3 describes one straggler treatment; three exist | **resolved** — closed by the §2.4 rewrite |
+| F2 | §2.3 describes one settling detector; two (in fact three) exist | **resolved** — closed by the §2.4 rewrite |
+| F3 | §3.3 understates how many points carry unconverged seeds | **resolved** — closed by the §3.3 rewrite |
 | F4 | Undocumented positional-argument convention | **resolved** — fix applied and verified |
+
+**All four findings are now resolved.** F1–F3 were closed by the consolidated
+manuscript rewrite that moved the convergence protocol into its own §2.4 and
+restated §3.3: the protocol is now described as the three-detector, three-straggler-
+treatment procedure the code actually implements (§2.4 states plainly that "Three
+detectors are therefore used"), and §3.3 now reports that 16 of 18 points carry
+unconverged seeds at 1–7 of 10 each, with the drift-direction diagnostic and the
+Figure 2 open-ring disclosure. F4 was fixed in code (keyword-passing) and verified
+byte-identical on a banked cell. Nothing below is outstanding; the entries are
+retained as the record of what the audit found and how each was closed.
 
 Three of the four findings are the same defect in different places: the methods
 section describes the protocol as more uniform than the code implements it. In
@@ -225,9 +235,11 @@ resolution where stragglers were few and automated drift classification where
 they were many. The paper undersells its own methodological care by describing
 a single procedure.
 
-**F2 is worth more than a correction.** The reason two freeze detectors exist is
-that Game of Life reaches absorbing configurations readily and Day and Night does
-not — the same property §3.2 now quantifies at 0.456 against 0.837, and that §6
+**F2 is worth more than a correction.** (The audit originally identified two
+freeze detectors; the §2.4 rewrite that closed the finding ultimately described
+three — see the status table above. The point below stands unchanged.) The reason
+distinct freeze detectors exist is that Game of Life reaches absorbing
+configurations readily and Day and Night does not — the same property §3.2 now quantifies at 0.456 against 0.837, and that §6
 raises as the binary-versus-graded question. Stating that in §2.3 turns an
 apparent inconsistency into evidence for the paper's central claim.
 
@@ -236,14 +248,17 @@ an audit): α-scaling correct in entries 2, 3, 7 and 8; the one-cell tolerance
 floor in entry 3; identical capture-energy accounting across all three §4.7
 pairings in entry 8; correct four-way unpack in entry 9.
 
-Remaining work is the consolidated manuscript rewrite described above, touching
-§2.3, §3.3, §4.2 and §6.
+The consolidated manuscript rewrite described above — touching §2.3, §3.3, §4.2
+and §6, and promoting the convergence protocol to its own §2.4 — has been
+completed. F1–F3 are closed by it (see the status table above).
 
 ---
 
 ## F4 (original entry). A positional call convention that is load-bearing and undocumented
 
-**Status:** open. No wrong numbers. Latent hazard for anyone extending the code.
+**Status:** resolved (fix applied and verified byte-identical on a banked cell; see
+the status table above). No wrong numbers. The text below is the original entry,
+retained as the record of the hazard that was found and corrected.
 
 Line 67 calls the module's step function with eight positional arguments:
 

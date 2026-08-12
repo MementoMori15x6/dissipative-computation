@@ -6,9 +6,9 @@ authors:
   - family-names: Yoo
     given-names: D. H.
     affiliation: "Independent researcher"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0002-8111-8830"
 license: MIT
-repository-code: "https://github.com/USERNAME/dissipative-computation"
+repository-code: "https://github.com/MementoMori15x6/dissipative-computation"
 abstract: >-
   Simulation code, banked convergence-audited data records, and figure-generation
   scripts for a study of Landauer-gated cellular automata competing over a shared
@@ -28,5 +28,7 @@ preferred-citation:
   authors:
     - family-names: Yoo
       given-names: D. H.
+      orcid: "https://orcid.org/0000-0002-8111-8830"
   year: 2026
-  # journal / arXiv identifier to be added upon submission
+  url: "https://github.com/MementoMori15x6/dissipative-computation"
+  # arXiv identifier to be added upon submission

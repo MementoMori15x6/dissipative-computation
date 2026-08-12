@@ -25,7 +25,7 @@ import pathlib
 import re
 import sys
 
-MANUSCRIPT = "DC_Manuscript_Draft_v2.md"
+MANUSCRIPT = "DC_Manuscript.md"
 
 
 def find_root():
